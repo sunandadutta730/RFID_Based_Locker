@@ -27,6 +27,12 @@ When a valid card is scanned, the locker unlocks automatically. Unauthorized use
 
 ---
 
+## Documentation 
+
+👉 https://www.linkedin.com/posts/sunanda-dutta-a7b2b6322_rfid-based-locker-system-arduino-project-activity-7444366461474828288-HVeQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFGO4X8BIVGLoWipFh6-40lNnar9T3FtNKk
+
+---
+
 ## ⚙️ Features
 
 - 🔑 RFID-based authentication  
