@@ -46,9 +46,11 @@ When a valid card is scanned, the locker unlocks automatically. Unauthorized use
 ### 🔌 Hardware
 - Arduino Uno  
 - RC522 RFID Module  
-- Servo Motor  
+- Solenoid Lock 
 - LCD Display  
-- Breadboard & Jumper Wires  
+- Breadboard & Jumper Wires
+- Leds
+- Relay Module 
 
 ---
 
@@ -100,7 +102,7 @@ RFID_Based_Locker/
 ## 👨‍💻 Author
 
 **Sunanda Dutta**  
-🎓 B.Tech | IoT & Embedded Systems  
+🎓 Diploma | IoT & Embedded Systems  
 
 ---
 
