@@ -1,74 +1,114 @@
-🔐 RFID Based Locker System
+<h1 align="center">🔐 RFID Based Locker System</h1>
 
-A smart and secure RFID-based locker system built using Arduino and embedded systems. This project enables contactless authentication to control locker access, improving security and automation.
+<p align="center">
+  Smart | Secure | Contactless Access using Arduino & RFID
+</p>
 
-📌 Project Overview
+<p align="center">
+  <img src="https://img.shields.io/badge/Arduino-Uno-blue?style=for-the-badge&logo=arduino">
+  <img src="https://img.shields.io/badge/RFID-RC522-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge">
+</p>
 
-This system uses an RFID card/tag to authenticate users. When a valid RFID is scanned, the locker unlocks automatically. Unauthorized access is denied, ensuring safety and controlled usage.
+---
 
-🎥 Demo Video
+## 📌 About The Project
 
-👉 Watch the working demo here:
-🔗 https://youtube.com/shorts/feMR85VK3Ew?si=miEaG_R_ic2Yn4Aw
+This project is a **smart RFID-based locker system** that allows secure and automated access using RFID cards.
 
-⚙️ Features
-🔑 RFID-based secure authentication
-⚡ Fast and contactless access
-🔒 Automated locking/unlocking system
-💡 LCD display for user feedback
-🧠 Low-cost and efficient embedded solution
-🛠️ Technologies & Components Used
-💻 Software:
-Arduino IDE
-Embedded C
-🔌 Hardware:
-Arduino Uno
-RC522 RFID Module
-Servo Motor / Electronic Lock
-LCD Display
-Jumper Wires & Breadboard
-🔧 Working Principle
-RFID card is scanned using the RC522 module
-System checks if the UID is authorized
-If valid:
-Locker unlocks via servo motor
-LCD displays access granted
-If invalid:
-Access denied message shown
-📂 Project Structure
+When a valid card is scanned, the locker unlocks automatically. Unauthorized users are denied access.
+
+---
+
+## 🎥 Demo Video
+
+👉 https://youtube.com/shorts/feMR85VK3Ew?si=miEaG_R_ic2Yn4Aw
+
+---
+
+## ⚙️ Features
+
+- 🔑 RFID-based authentication  
+- ⚡ Fast & contactless access  
+- 🔒 Automatic locking system  
+- 💡 LCD display feedback  
+- 🧠 Low-cost embedded system  
+
+---
+
+## 🛠️ Tech Stack
+
+### 💻 Software
+- Arduino IDE  
+- Embedded C  
+
+### 🔌 Hardware
+- Arduino Uno  
+- RC522 RFID Module  
+- Servo Motor  
+- LCD Display  
+- Breadboard & Jumper Wires  
+
+---
+
+## 🔧 How It Works
+
+1. Scan RFID card  
+2. System checks UID  
+3. If valid → Locker opens  
+4. If invalid → Access denied  
+
+---
+
+## 🖼️ Circuit Diagram
+
+![Circuit Diagram](RFID_based_locker%20Circuit%20Diagram.jpg)
+
+---
+
+## 📂 Project Structure
 RFID_Based_Locker/
-│── RFID_based_Locker_with_LCD.ino   # Main Arduino Code
-│── RFID_based_locker Circuit Diagram.jpg  # Circuit Diagram
-│── RFID Locker Demo Testing vedio.mp4     # Demo Video
+│── RFID_based_Locker_with_LCD.ino
+│── RFID_based_locker Circuit Diagram.jpg
+│── RFID Locker Demo Testing vedio.mp4
 │── README.md
 │── LICENSE
-🖼️ Circuit Diagram
 
-(Add your circuit image preview here if you want better presentation)
 
-🚀 Applications
-🏫 Schools & Colleges Locker System
-🏢 Office Storage Security
-🏠 Smart Home Automation
-📦 Secure Storage Units
-📈 Future Improvements
-Integration with IoT (remote monitoring)
-Mobile app control
-Database logging (Firebase / Cloud)
-Face recognition + RFID hybrid system
-👨‍💻 Author
 
-Sunanda Dutta
-🎓 B.Tech Student | IoT & Embedded Systems Enthusiast
+---
 
-📜 License
+## 🚀 Applications
 
-This project is licensed under the MIT License – feel free to use, modify, and distribute with proper credit.
+- 🏫 College Locker Systems  
+- 🏢 Office Security  
+- 🏠 Smart Home  
+- 📦 Storage Units  
 
-⭐ Support
+---
+
+## 🔮 Future Improvements
+
+- IoT Integration (Firebase)  
+- Mobile App Control  
+- Cloud Logging  
+- Face Recognition  
+
+---
+
+## 👨‍💻 Author
+
+**Sunanda Dutta**  
+🎓 B.Tech | IoT & Embedded Systems  
+
+---
+
+## ⭐ Support
 
 If you like this project:
+- ⭐ Star the repo  
+- 🍴 Fork it  
+- 📢 Share  
 
-⭐ Star this repository
-🍴 Fork it
-📢 Share with others
+---
